@@ -1,0 +1,119 @@
+/* ====== Styling for Header ====== */
+
+nav {
+  margin-top: 10px;
+  padding: 5px 50px;
+  /* border: solid #f53855 2px; */
+  /* background-color: grey; */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  color: #4f5665;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.logo img {
+  width: 149px;
+  height: 36.23px;
+}
+
+.btn {
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.btn.signin {
+  color: black;
+  padding: 10px 20px;
+}
+
+.btn.signup {
+  color: #f53855;
+  border: solid #f53855 1px;
+  border-radius: 20px;
+}
+
+/* Mobile Menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle {
+  order: 1;
+}
+
+.item.button {
+  order: 2;
+}
+
+.item {
+  width: 100%;
+  text-align: center;
+  order: 3;
+  display: none;
+}
+
+.item.active {
+  display: block;
+}
+
+/* Table Menu */
+@media all and (min-width: 768px) {
+  .menu {
+    justify-content: center;
+  }
+
+  .logo {
+    flex: 1;
+  }
+  .toggle {
+    flex: 1;
+    text-align: right;
+  }
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle {
+    order: 2;
+  }
+}
+
+/* Desktop Menu */
+@media all and (min-width: 1024px) {
+  .item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+  }
+  .button {
+    order: 2;
+  }
+  .menu li {
+    padding: 15px 10px;
+  }
+  .menu li.button {
+    padding-right: 0;
+  }
+}
