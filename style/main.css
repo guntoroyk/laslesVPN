@@ -13,7 +13,6 @@ main {
 }
 
 .subtitle {
-  text-align: center;
   font-weight: 400;
   width: 555px;
 }
@@ -44,12 +43,10 @@ main {
   line-height: 1.7;
 }
 
-.about button {
+.btn-get-started {
   padding: 20px 60px;
   font-weight: 500;
   font-size: 1.2rem;
-  cursor: pointer;
-  border: none;
   background: #f53838;
   color: white;
   border-radius: 15px;
@@ -86,7 +83,7 @@ main {
     font-size: 40px;
   }
 
-  .about button {
+  .btn-get-started {
     padding: 20px 40px;
     font-size: 1.1rem;
   }
@@ -116,7 +113,7 @@ main {
     font-size: 30px;
   }
 
-  .about button {
+  .btn-get-started {
     padding: 10px 30px;
     font-size: 0.8rem;
   }
@@ -315,4 +312,65 @@ main {
 .testimonial-text {
   /* font-weight: bold; */
   line-height: 1.7;
+}
+
+/* Subscribe Section */
+
+.section-subscribe-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 32px;
+}
+
+.input {
+  font-size: 18px;
+  padding: 8px 16px;
+  border: solid #dddddd 2px;
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.btn-subscribe {
+  padding: 12px 40px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background: #f53838;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 20px 14px -10px rgba(245, 56, 56, 0.35);
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-info img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: solid #dddddd 3px;
+}
+
+/* Tablet Mode */
+@media all and (max-width: 768px) {
+  .section-subcribe-wrap {
+    padding: 0px;
+  }
+
+  .personal-info {
+    margin-top: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .personal-info article {
+    align-items: flex-start;
+  }
 }
