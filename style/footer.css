@@ -70,6 +70,10 @@ footer {
     margin-right: 32px;
   }
 
+  .footer-nav h4 {
+    margin-top: 8px;
+  }
+
   .footer-nav li {
     margin: 8px 0px;
   }
