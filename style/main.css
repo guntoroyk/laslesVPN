@@ -2,7 +2,7 @@
 
 /* Basic Style */
 main {
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 5px 60px;
 }
 
@@ -194,6 +194,7 @@ main {
 .pricing-card {
   border: solid #dddddd 2px;
   border-radius: 10px;
+  cursor: pointer;
 
   margin: 24px;
   padding: 40px 56px;
@@ -203,8 +204,16 @@ main {
   align-items: center;
 }
 
+.pricing-card:hover {
+  box-shadow: 0px 0px 16px 12px rgba(221, 221, 221, 1);
+}
+
 .pricing-card-selected {
   border-color: #f53838;
+}
+
+.pricing-card-selected:hover {
+  box-shadow: 0px 0px 32px 8px rgba(245, 56, 56, 1);
 }
 
 .pricing-image {
@@ -241,10 +250,6 @@ main {
 }
 
 .btn-selected {
-  padding: 7px 70px;
-  color: #f53855;
-  border: solid #f53855 2px;
-  border-radius: 20px;
   background: #f53838;
   color: white;
   box-shadow: 0px 20px 14px -10px rgba(245, 56, 56, 0.35);
@@ -272,7 +277,6 @@ main {
   }
 
   .pricing-card {
-    /* padding: 40px 20px; */
     margin: 24px 0px;
   }
 }

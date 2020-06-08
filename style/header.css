@@ -1,7 +1,14 @@
 /* ====== Styling for Header ====== */
 
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
 nav {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   padding: 5px 50px;
   /* border: solid #f53855 2px; */
   /* background-color: grey; */
@@ -15,6 +22,23 @@ nav a {
   color: #4f5665;
   text-decoration: none;
   font-weight: 400;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 16px;
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+
+.logo a,
+.toggle a {
+  font-size: 20px;
 }
 
 .logo img {

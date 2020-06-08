@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./style/header.css" />
   <link rel="stylesheet" href="./style/main.css" />
   <link rel="stylesheet" href="./style/footer.css" />
+  <link rel="stylesheet" href="./style/fontawesome/all.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
@@ -44,7 +45,7 @@
           <button class="btn signup">Sign Up</button>
         </li>
         <li class="toggle">
-          <a href=""><b>X</b></a>
+          <a href="#"><i class="fas fa-bars"></i></a>
         </li>
       </ul>
     </nav>
@@ -162,7 +163,7 @@
             <button class="btn btn-select">Select</button>
             <div>
         </article>
-        <article class="pricing-card">
+        <article class="pricing-card pricing-card-selected">
           <img class="pricing-image" src="./assets/Standard.png" alt="Standard Plan">
           <h4 class="pricing-plan medium">Standard Plan</h4>
           <ul class="pricing-features">
@@ -191,10 +192,10 @@
             <p>
               <span class="medium">$9</span> / mo
             </p>
-            <button class="btn btn-select">Select</button>
+            <button class="btn btn-select btn-selected">Select</button>
           </div>
         </article>
-        <article class="pricing-card pricing-card-selected">
+        <article class="pricing-card">
           <img class="pricing-image" src="./assets/Premium.png" alt="Premium Plan">
           <h4 class="pricing-plan medium">Premium Plan</h4>
           <ul class="pricing-features">
@@ -227,7 +228,7 @@
             <p>
               <span class="medium">$12</span> / mo
             </p>
-            <button class="btn btn-selected">Select</button>
+            <button class="btn btn-select">Select</button>
           </div>
         </article>
       </div>
@@ -382,6 +383,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./javascript/index.js"></script>
 </body>
 
 </html>
