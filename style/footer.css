@@ -2,7 +2,7 @@ footer {
   background-color: #f8f8f8;
   display: flex;
   justify-content: space-between;
-  padding: 60px 60px;
+  padding: 60px 60px 40px 60px;
 }
 
 .footer-info {

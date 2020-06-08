@@ -2,14 +2,16 @@
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #ffffff;
+  z-index: 2;
 }
 
 nav {
   /* margin-top: 10px; */
-  padding: 5px 50px;
+  padding: 0px 50px;
   /* border: solid #f53855 2px; */
   /* background-color: grey; */
 }
@@ -64,6 +66,11 @@ nav a:hover {
   color: #f53855;
   border: solid #f53855 1px;
   border-radius: 20px;
+}
+
+.btn.signup:hover {
+  background-color: #f53855;
+  color: #ffffff;
 }
 
 /* Mobile Menu */

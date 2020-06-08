@@ -6,6 +6,10 @@ main {
   padding: 5px 60px;
 }
 
+.title-wrap {
+  padding-top: 80px;
+}
+
 .title {
   font-size: 35px;
   font-weight: 500;
@@ -213,7 +217,8 @@ main {
 }
 
 .pricing-card-selected:hover {
-  box-shadow: 0px 0px 32px 8px rgba(245, 56, 56, 1);
+  /* box-shadow: 0px 0px 32px 8px rgba(245, 56, 56, 1); */
+  box-shadow: 0px 0px 16px 12px rgba(221, 221, 221, 1);
 }
 
 .pricing-image {
