@@ -293,6 +293,14 @@ main {
   }
 }
 
+/* Map Section */
+.map-image-wrap img,
+.sponsor-image-wrap img {
+  width: 100%;
+  max-width: 1060px;
+  height: auto;
+}
+
 /* Testimonial Section */
 
 .testimonial-list {
@@ -326,12 +334,18 @@ main {
 /* Subscribe Section */
 
 .section-subscribe-wrap {
+  position: relative;
+  top: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
-  padding: 32px;
+  /* margin-top: 40px; */
+  padding: 48px;
+  background-color: #ffffff;
+  /* border: solid #dddddd 2px; */
+  /* box-shadow: 0px 7px 16px 7px rgba(221, 221, 221, 0.48); */
+  /* border-radius: 10px; */
 }
 
 .input {
@@ -345,6 +359,7 @@ main {
 
 .btn-subscribe {
   padding: 12px 40px;
+  margin-top: 16px;
   font-weight: 500;
   font-size: 1.2rem;
   background: #f53838;
@@ -381,5 +396,10 @@ main {
 
   .personal-info article {
     align-items: flex-start;
+  }
+
+  .btn-subscribe {
+    padding: 12px 32px;
+    font-size: 1rem;
   }
 }
