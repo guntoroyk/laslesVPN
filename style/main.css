@@ -128,6 +128,7 @@ main {
 .our-features {
   display: flex;
   align-items: center;
+  padding-top: 80px;
 }
 
 .ilustration-2-wrap {
